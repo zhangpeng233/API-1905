@@ -34,5 +34,6 @@ Route::get('/test/get/signonlie','Sign\IndexController@signOnline');
 Route::post('/test/post/signonlie','Sign\IndexController@signOnline1');
 Route::get('/test/get/sign1','Sign\IndexController@sign1');
 Route::post('/test/post/sign2','Sign\IndexController@sign2');
+Route::get('/test/md5test','Api\TestController@md5test');
 
 
