@@ -111,7 +111,7 @@ class TestController extends Controller
     public function reg()
     {
         //请求passport
-        $url = 'http://passport.1905.com/api/user/reg';
+        $url = 'http://1905pass.com/api/user/reg';
         $response = UserModel::curlPost($url,$_POST);
         return $response;
     }
@@ -122,7 +122,7 @@ class TestController extends Controller
     public function login()
     {
         //请求passport
-        $url = 'http://passport.1905.com/api/user/login';
+        $url = 'http://1905pass.com/api/user/login';
         $response = UserModel::curlPost($url,$_POST);
         return $response;
     }
@@ -190,7 +190,7 @@ class TestController extends Controller
 
         //计算签名  MD5($data . $key)
         //$signature = md5($data . $key);
-        $signature = 'sdlfkjsldfkjsfd';
+        $signature = 'adadadadad';
 
         echo "待发送的数据：". $data;echo '</br>';
         echo "签名：". $signature;echo '</br>';
